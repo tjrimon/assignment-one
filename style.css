@@ -1,0 +1,61 @@
+/*Google Fonts link*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Yeseva+One&display=swap');
+
+/*Some Common and Default Styles Here*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0% 8%;
+}
+
+h1{
+
+}
+p{
+    color: #3e3e3e;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+span{
+    color:#ffad5a;
+}
+small{
+font-size: 16px;
+}
+.btn{
+    background: #ff5959;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+
+
+/*Banner Section Styles Here*/
+#banner-section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.banner-item-1{
+padding-top: 120px;
+padding-right: ;
+}
+.banner-item-1 p{
+padding-right: 30%;
+margin-top: -30px;
+}
+.banner-section h1{
+    color:#333333;
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 400;
+}
+.banner-section img{
+    width: 70%;
+    margin-left: 20%;
+}
