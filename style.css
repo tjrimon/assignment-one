@@ -171,3 +171,62 @@ font-size: 16px;
     line-height: 24px;
     padding-bottom: 10px;
 }
+/*Contact Us Section*/
+.width-40{
+    width: 40%;
+}
+.width-60{
+    width: 60%;
+}
+#section-five{
+    padding: 50px 15%;
+}
+
+.contact-item-1{
+    margin-left: 11%;
+    background: #ecf0f3;
+    border-radius: 20px 0px 0px 20px;
+    overflow: hidden;
+}
+.contact-item-1 img{
+    width: 100%;
+}
+.contact-item-1 h3{
+    padding-left: 10%;
+}
+.contact-item-1 p{
+    padding: 0% 5% 0% 10%;
+}
+
+.contact-item-2 div{
+    padding: 20px 0px;
+}
+.contact-item-2 form{
+    background: #FFF4D6;
+    margin-right: 20%;
+    padding: 20% 35px;
+    border-radius: 0px 20px 20px 0px;
+}
+.contact-item-2 label{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+input,
+textarea {
+    outline: none;
+    background: #fff4d6;
+    font: 1em sans-serif;
+    border: none;
+    border-bottom: 2px solid #fbe199;
+    height: 1.5em;
+    width: 100%;
+ 
+}
+textarea{
+    height: 4.5em;
+}
+.contact-item-2 .btn{
+    height: 45px;
+    width: 40%;
+}
