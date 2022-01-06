@@ -1,10 +1,11 @@
 /*Google Fonts link*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;600;700&family=Yeseva+One&display=swap');
 
 /*Some Common and Default Styles Here*/
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0% 3%;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -66,7 +67,7 @@ font-size: 16px;
 
 /*Banner Section Styles Here*/
 #banner-section{
-    padding: 0% 5%;
+    padding: 0% 8%;
 }
 .banner-item-1{
 padding-top: 120px;
@@ -92,7 +93,7 @@ margin-top: -30px;
 
 /*Section two css here*/
 #section-two{
-    padding: 70px 5%;
+    padding: 70px 8%;
     background-image: url();
     
 }
@@ -124,7 +125,7 @@ font-size: 16px;
 
 /*Section three start here*/
 #section-three{
-    margin:50px 0px;
+    margin:50px 3%;
     background-image: url(img/shape-1.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -136,8 +137,7 @@ font-size: 16px;
 
 /*Section Four Start here*/
 #section-four{
-    margin-top:50px;
-    margin-left: 5%;
+    margin: 50px 8%;
     background-image: url(img/Ellipse\ 34.png);
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -145,4 +145,29 @@ font-size: 16px;
 .section-four img{
     width: 78%;
     padding-bottom: 82px;
+}
+
+/*Fotter Section Css here*/
+
+#footer-section{
+    background-color: #0B0D17;
+    margin-bottom: -20px;
+}
+.footer-section h1{
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    padding-top: 30px;
+}
+.footer-section h1 span{
+    color: #FF5959;
+}
+.footer-section p{
+    text-align: center;
+    color: #D9DBE1;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 10px;
 }
