@@ -8,13 +8,30 @@ body{
 }
 
 h1{
-
+    color:#13103a;
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 700;
+    text-align: center;
+}
+h2{
+    color:#333333;
+    font-size: 36px;
+    font-weight: 700;
+}
+h3{
+    color:#333333;
+    font-size: 24px;
+    font-weight: 600;
 }
 p{
     color: #3e3e3e;
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
+}
+.mr-22{
+    margin-right: 22%;
 }
 
 span{
@@ -43,6 +60,12 @@ font-size: 16px;
 .width-33{
     width: 33%;
 }
+.width-35{
+    width: 35%;
+}
+.width-65{
+    width: 65%;
+}
 .banner-item-1{
 padding-top: 120px;
 padding-right: ;
@@ -65,17 +88,50 @@ margin-top: -30px;
     margin-left: 20%;
 }
 
-
-
-
-.section-three img{
-    width: 60%;
+/*Section two css here*/
+#section-two{
+    padding: 70px 0px;
+    background-image: url();
+    
+}
+.section-two img{
+width: 35%;
+}.section-two p{
+font-size: 16px;
 }
 
 
+.sec-two-item-one{
+    background: #edf5f6;
+    padding: 40px 30px;
+    margin-right: 2%;
+    border-radius: 30px;
+}
+.sec-two-item-two{
+    background: #FFEEEE;
+    padding: 40px 30px;
+    margin-right: 2%;
+    border-radius: 30px;
+}
+.sec-two-item-three{
+    background: #FFF4D6;
+    padding: 40px 30px;
+    margin-right: 2%;
+    border-radius: 30px;
+}
 
+/*Section three start here*/
+#section-three{
+    margin:50px 0px;
+}
+.section-three img{
+    width: 80%;
+}
 
-
+/*Section Four Start here*/
+#section-four{
+    margin:50px 0px;
+}
 .section-four img{
-    width: 70%;
+    width: 80%;
 }
