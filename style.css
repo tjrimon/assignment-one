@@ -4,7 +4,7 @@
 /*Some Common and Default Styles Here*/
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0% 8%;
+    margin: 0% 3%;
 }
 
 h1{
@@ -47,10 +47,6 @@ font-size: 16px;
     padding: 10px 25px;
     border-radius: 5px;
 }
-
-
-
-/*Banner Section Styles Here*/
 .display-flex{
     display: flex;
 }
@@ -66,9 +62,14 @@ font-size: 16px;
 .width-65{
     width: 65%;
 }
+
+
+/*Banner Section Styles Here*/
+#banner-section{
+    padding: 0% 5%;
+}
 .banner-item-1{
 padding-top: 120px;
-padding-right: ;
 }
 .banner-item-1 p{
 padding-right: 30%;
@@ -81,6 +82,7 @@ margin-top: -30px;
     line-height: 80px;
     font-weight: 400;
     padding-left:20px;
+    text-align: left;
     border-left: 5px solid #ff5959;
 }
 .banner-section img{
@@ -90,7 +92,7 @@ margin-top: -30px;
 
 /*Section two css here*/
 #section-two{
-    padding: 70px 0px;
+    padding: 70px 5%;
     background-image: url();
     
 }
@@ -123,15 +125,24 @@ font-size: 16px;
 /*Section three start here*/
 #section-three{
     margin:50px 0px;
+    background-image: url(img/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .section-three img{
-    width: 80%;
+    width: 72%;
+    padding-left: 15%;
 }
 
 /*Section Four Start here*/
 #section-four{
-    margin:50px 0px;
+    margin-top:50px;
+    margin-left: 5%;
+    background-image: url(img/Ellipse\ 34.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 .section-four img{
-    width: 80%;
+    width: 78%;
+    padding-bottom: 82px;
 }
