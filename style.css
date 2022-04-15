@@ -50,6 +50,7 @@ font-size: 16px;
 }
 .display-flex{
     display: flex;
+    align-items:center;
 }
 .half-width{
     width: 50%;
